@@ -1,0 +1,3 @@
+[submodule "Abyssal/vendor/spdlog"]
+	path = Abyssal/vendor/spdlog
+	url = https://github.com/gabime/spdlog.git
