@@ -8,7 +8,7 @@ project "Abyssal"
 	objdir ("%{wks.location}/bin-int/" .. outputdir .. "/%{prj.name}")
 
 	pchheader "abyssalpch.h"
-	pchsource "abyssalpch.cpp"
+	pchsource "src/abyssalpch.cpp"
 
 	files
 	{
@@ -34,6 +34,7 @@ project "Abyssal"
 
 		defines
 		{
+			"ABYSSAL_PLATFORM_WINDOWS"
 		}
 
 		filter "configurations:Debug"

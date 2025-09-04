@@ -2,7 +2,7 @@ project "Sandbox"
 	kind "ConsoleApp"
 	language "C++"
     cppdialect "C++20"
-    staticruntime "off"
+    staticruntime "on"
 
 	targetdir ("%{wks.location}/bin/" .. outputdir .. "/%{prj.name}")
 	objdir ("%{wks.location}/bin-int/" .. outputdir .. "/%{prj.name}")
@@ -17,8 +17,7 @@ project "Sandbox"
 	{
 		"%{IncludeDirs.spdlog}",
 		"%{wks.location}/Abyssal/src",
-		--[["Abyssal/vendor",
-		"%{IncludeDir.glm}"]]--
+		"%{wks.location}/Abyssal/vendor",
 	}
 
 	dependson

@@ -1,3 +1,3 @@
 IncludeDirs = {}
 
-IncludeDirs["spdlog"] = "Abyssal/vendor/spdlog/include"
+IncludeDirs["spdlog"] = "%{wks.location}/Abyssal/vendor/spdlog/include"

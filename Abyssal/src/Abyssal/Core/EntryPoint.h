@@ -1,6 +1,18 @@
 #pragma once
 
-int main()
-{
+#ifdef ABYSSAL_PLATFORM_WINDOWS
 
+extern Abyssal::Application* Abyssal::CreateApplication();
+
+int main(int argc, char** argv)
+{
+    Abyssal::Log::Init();
+    ABYSSAL_CORE_WARN("Initialized Log!");
+
+    auto app = Abyssal::CreateApplication();
+    app->Run();
+
+    delete app;
 }
+
+#endif

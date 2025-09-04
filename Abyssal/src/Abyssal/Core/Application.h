@@ -11,6 +11,10 @@ namespace Abyssal {
         virtual ~Application();
         
         void Run();
+
+        inline static Application& Get() { return *s_Instance; }
+    private:
+        bool m_IsRunning;
     private:
         static Application* s_Instance;
     };
