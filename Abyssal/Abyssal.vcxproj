@@ -143,6 +143,11 @@
     <ClInclude Include="src\Abyssal\Core\EntryPoint.h" />
     <ClInclude Include="src\Abyssal\Core\Log.h" />
     <ClInclude Include="src\abyssalpch.h" />
+    <ClInclude Include="src\Abyssal\Events\ApplicationEvent.h" />
+    <ClInclude Include="src\Abyssal\Events\Event.h" />
+    <ClInclude Include="src\Abyssal\Events\KeyEvent.h" />
+    <ClInclude Include="src\Abyssal\Events\MouseEvent.h" />
+    <ClInclude Include="src\Abyssal\Window.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Abyssal\Core\Application.cpp" />

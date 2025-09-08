@@ -23,6 +23,11 @@
       <Filter>Abyssal\Core</Filter>
     </ClInclude>
     <ClInclude Include="src\abyssalpch.h" />
+    <ClInclude Include="src\Abyssal\Window.h" />
+    <ClInclude Include="src\Abyssal\Events\Event.h" />
+    <ClInclude Include="src\Abyssal\Events\KeyEvent.h" />
+    <ClInclude Include="src\Abyssal\Events\MouseEvent.h" />
+    <ClInclude Include="src\Abyssal\Events\ApplicationEvent.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Abyssal\Core\Application.cpp">
