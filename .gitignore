@@ -1,5 +1,16 @@
+# Visual Studio
 .vs/
+*.user
+*.vcxproj.filters
+
+# Build directories
 bin/
 bin-int/
 
-*.user
+# Intermediate files
+*.obj
+*.ilk
+*.log
+*.tlog
+*.pdb
+*.idb
